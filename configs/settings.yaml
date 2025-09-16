@@ -1,0 +1,10 @@
+model: "gpt-4o-mini"
+target_words: 800
+pages_per_chunk: 2
+chunk_max_words: 500
+chunk_overlap_words: 50
+context_base: 2500
+context_boost_per: 20
+context_boost_cap: 2000
+context_hard_cap: 6000
+must_include_topk: 20
