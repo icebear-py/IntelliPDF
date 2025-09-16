@@ -65,7 +65,6 @@ def process_inputs(input_folder="data/input_pdfs", config_path="configs/settings
 		if not selected_chunks:
 			selected_chunks = chunks[:3]
 			print("  Fallback: no selected chunks; using first 3 chunks")
-
 	
 		merged_ents = {"PERSON": [], "ORG": [], "GPE": [], "SCAM": []}
 		for ents in chunk_entities:
